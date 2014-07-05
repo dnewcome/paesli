@@ -1,0 +1,49 @@
+/* template vars */
+
+$page-width: 1000px;
+$page-font: 'Roboto', sans-serif;
+$page-color: #555;
+$page-background: #252525;
+
+
+/* header vars */
+
+$contrast-background: #1a1a1a;
+
+/* color vars */
+
+$green: #5EB36F;
+$green-light: #92dba0;
+
+$red: #E76E66;
+$red-light: #ea8f8a;
+
+$blue: #407EB8;
+$blue-light: #61a4e2;
+
+$yellow: #DDA56C;
+$yellow-light: #efc397;
+
+$purple: #695B8E;
+$purple-light: #8b78bf;
+
+$orange: #E16A3F;
+$orange-light: #e57d5e;
+
+$green-two: #56D8A6;
+$green-two-light: #82f8d5;
+
+/* batch vars */
+
+$icon: "Batch";
+
+@font-face{
+    font-family:Batch;
+   		src:url('../assets/batch.eot');
+        src:url('../assets/batch.eot?#iefix') format('embedded-opentype'),
+          url('../assets/batch.woff') format('woff'),
+          url('../assets/batch.ttf') format('truetype'),
+          url('../assets/batch.svg#batchregular') format('svg');
+   	font-weight:normal;
+    font-style:normal;
+}
