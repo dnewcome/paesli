@@ -1935,7 +1935,7 @@ textarea {
 
 /* --- begin header styles --- */
 html {
-  padding-top: 113px;
+  /*padding-top: 113px;*/
 }
 
 header {
@@ -2699,4 +2699,16 @@ footer .tile a {
   margin-bottom: 2%;
   color: rgba(255, 255, 255, 0.25);
   text-align: center;
+}
+
+/* local changes */
+#top-spacer {
+  /*margin-top: 113px;*/
+}
+.splash {
+  padding-top: 160px;
+
+}
+#home {
+  padding: 20px 0px;
 }
