@@ -1460,7 +1460,7 @@ textarea {
   background: #e16a3f;
 }
 .orange .splash a {
-  background: #5eb36f;
+  background: #215157;
   -webkit-transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -o-transition: 0.2s ease all;
@@ -1505,10 +1505,10 @@ textarea {
 }
 
 .green a {
-  color: #5eb36f;
+  color: #215157;
 }
 .green .colored {
-  background: #5eb36f !important;
+  background: #215157 !important;
 }
 .green header .logo h1 a {
   color: #5eb36f;
@@ -1520,7 +1520,7 @@ textarea {
   background: #5eb36f;
 }
 .green .splash {
-  background: #5eb36f;
+  background: #0E242D;
 }
 .green .splash a {
   background: #407eb8;
@@ -1537,34 +1537,34 @@ textarea {
   transition: 0.2s ease all;
 }
 .green .price-tables .price {
-  background: #5eb36f;
+  background: #215157;
 }
 .green .price-tables .action a {
-  background: #5eb36f;
+  background: #215157 ;
 }
 .green .service .batch {
-  color: #5eb36f;
+  color: #215157 ;
 }
 .green .service h1, .green .service h2, .green .service h3, .green .service h4 {
   color: #c6e4cc;
 }
 .green .team .team-panel {
-  background: #5eb36f;
+  background: #215157 ;
 }
 .green .team .team-panel .panel-content ul.contact li a {
   background: #479757;
 }
 .green .work ul li a span {
-  background: #5eb36f;
+  background: #215157 ;
 }
 .green footer form input[type="submit"] {
-  background: #5eb36f;
+  background: #215157;
 }
 .green footer form .batch {
-  background: #5eb36f;
+  background: #215157;
 }
 .green footer .tile {
-  background: #5eb36f;
+  background: #215157;
 }
 
 .red a {
@@ -1784,7 +1784,7 @@ textarea {
   background: #e76e66;
 }
 .color-switch ul li a.green-switch {
-  background: #5eb36f;
+  background: #215157;
 }
 .color-switch ul li a.yellow-switch {
   background: #dda56c;
@@ -1860,6 +1860,7 @@ textarea {
 
 .three-four {
   width: 74%;
+
   margin-right: 2%;
 }
 
@@ -1874,7 +1875,7 @@ textarea {
 }
 
 .light {
-  background: #2b2b2b !important;
+  background: #0B1B21 !important;
 }
 
 .dark {
@@ -1940,7 +1941,7 @@ html {
 
 header {
   padding: 40px 0;
-  background: #1a1a1a;
+  background: #215157;
   position: fixed;
   width: 100%;
   z-index: 3000;
@@ -2217,7 +2218,7 @@ header .nav-toggle {
 }
 
 footer {
-  background: #1a1a1a;
+  background: #0E242D;
 }
 footer form .input {
   margin-bottom: 2%;
@@ -2234,7 +2235,7 @@ footer form .input input {
 }
 footer form .input input[type="text"], footer form .input input[type="email"] {
   width: 65%;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(11, 27, 35);
   color: white;
 }
 footer form .input input[type="submit"] {
