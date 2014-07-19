@@ -2734,4 +2734,22 @@ article.contact{
 }
 #left-label{
   font-family: Oxygen;
+  color: #BBE0C5;
+}
+.paesli-green {
+  color: #BBE0C5;
+  letter-spacing: 0px;
+}
+body {
+  font-family: Oxygen;
+}
+@media (max-width: 600px) {
+  #home {
+    height: 50px;
+    display: none;
+  }
+  .splash {
+    position: relative;
+    top: -120px;
+  }
 }
