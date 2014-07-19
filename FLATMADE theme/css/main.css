@@ -1956,8 +1956,7 @@ header .logo h1 {
   padding: 7.5px 0;
 }
 header .logo h1 a {
-  font-weight: 900;
-  text-transform: uppercase;
+  font-weight: 900
 }
 header nav {
   float: right;
@@ -2711,7 +2710,7 @@ footer .tile a {
 
 }
 #home {
-  padding: 20px 0px;
+  padding: 5px 0px;
 }
 
 article.contact{
@@ -2726,4 +2725,13 @@ article.contact{
 #paesli-big-logo {
   vertical-align: middle;
   margin-right: 30px;
+}
+@font-face {
+  font-family: Oxygen;
+  src: url("../assets/Oxygen-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+#left-label{
+  font-family: Oxygen;
 }
