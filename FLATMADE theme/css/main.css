@@ -2718,3 +2718,12 @@ article.contact{
   padding-bottom: 80px;
 }
 
+#paesli-small-logo {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+#paesli-big-logo {
+  vertical-align: middle;
+  margin-right: 30px;
+}
