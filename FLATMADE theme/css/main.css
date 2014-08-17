@@ -1208,7 +1208,7 @@ img.mfp-img {
   max-height: 0;
   position: absolute;
   display: block;
-  overflow: hidden;
+  
   zoom: 1;
 }
 
@@ -1511,13 +1511,13 @@ textarea {
   background: #215157 !important;
 }
 .green header .logo h1 a {
-  color: #5eb36f;
+  color: #BBE0C5;
 }
 .green header .logo h1 a span {
   color: #92dba0;
 }
 .green header nav a:hover {
-  background: #5eb36f;
+  background: #BBE0C5;
 }
 .green .splash {
   background: #0E242D;
@@ -1841,7 +1841,7 @@ textarea {
 }
 
 .current a {
-  background: #695b8e;
+  background: #215157;
   color: white !important;
 }
 
@@ -1970,7 +1970,7 @@ header nav ul li a {
   font-weight: 600;
   padding: 10px 20px;
   margin-left: 15px;
-  color: #555 !important;
+  color: #FFF !important;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
