@@ -21,6 +21,7 @@
 <body class="green">
 	<div id="top-spacer"></div>
 	<!-- ## begin header -->
+	<a name="home"></a>
 	<header id="home">
 		<div class="boxed">
 
@@ -73,15 +74,16 @@
 
 	<section class="splash">
 			<div style="margin: 0 auto; max-width: 1000px; line-height: 30px; text-align: left">
+		<a style="position: relative; top:-100px"name="about"></a>
 			<h1 style="text-align:left">About us:</h1>
-			Whether you need a little help with your to-do list, or if you’d like to share your energy and skills with others, Paesli will help you find a perfect match. 
+			<p>Whether you need a little help with your to-do list, or if you’d like to share your energy and skills with others, Paesli will help you find a perfect match.</p>
+			<p>Want to be part of something new?  We’re taking clients and providers to help shape Paesli as we grow.  Right now we’re handcrafting matches: connecting clients with talented, vetted providers for custom support.  In the future, clients and providers will find their own perfect matches quickly and directly through our website.</p>
 
-			Want to be part of something new?  We’re taking clients and providers to help shape Paesli as we grow.  Right now we’re handcrafting matches: connecting clients with talented, vetted providers for custom support.  In the future, clients and providers will find their own perfect matches quickly and directly through our website.  
-
-			Please tell us about yourself.  If you have any questions, please write me at <a style="background-color: transparent" href="mailto:susan@paesli.com">susan@paesli.com</a>.
+			<p>Please tell us about yourself.  If you have any questions, please write me at <a style="background-color: transparent; color: white" href="mailto:susan@paesli.com">susan@paesli.com</a></p>
 		</div>
 	</section>
 	<!-- ## begin row -->
+	<a name="contact"></a>
 	<footer id="contact" class="row">
 		<div class="boxed">
 
@@ -115,22 +117,39 @@
 							<i class="batch" data-icon="&#xF044;"></i>
 						</div>
 
+						<div class="input phone">
+							<input name="entry.2085855132" type="text" required placeholder="Your Phone">
+						</div>
+
+						<div class="input type">
+							<label class="ss-q-item-label" for="entry_645307292">I&#39;d like to be a:</label>
+							<select id="entry_645307292" name="entry.645307292" required">
+								<option value="Client">Client</option>
+								<option value="Provider">Provider</option>
+							</select>
+						</div>
+		
+						<label for="entry_588974492">Location(s):</label>
+						<div class="input location">
+							<input type="text" id="entry_588974492" name="entry.588974492">
+						</div>
+
 						<div id="errands" class="input">
-							<label for="errands">
+							<label for="errands" class="checklabel">
 								errands	
 							</label>
-								<input value="errands" name="entry.2022163545" type="checkbox">
+							<input value="errands" name="entry.2022163545" type="checkbox">
 						</div>
 
 						<div class="input">
-							<label for="cooking">
+							<label for="cooking" class="checklabel">
 								meal prep and cooking	
 							</label>
 								<input value="meal prep & cooking" id="cooking" name="entry.2022163545" type="checkbox">
 						</div>
 
 						<div id="mealprep" class="input">
-							<label for="cleaning">
+							<label for="cleaning" class="checklabel">
 								organizing and light cleaning	
 							</label>
 								<input value="organizing & light cleaning" id="cleaning" name="entry.2022163545" type="checkbox">
@@ -139,14 +158,16 @@
 
 						<div>
 							<input style="float:left" id="other" value="__other_option__" name="entry.2022163545" type="checkbox">
-							<span style="float:left">
+							<span class="checklabel" style="float:left">
 								other
 							</span>
-							<input style="float:letft" id="other_option_response" name="entry.2022163545.other_option_response" type="text">
 						</div>
+						<br>
+						<br>
+						<input style="width:65%" id="other_option_response" name="entry.2022163545.other_option_response" type="text">
 
-						<div class="input">
-							<input type="submit" value="Submit" name="email">
+						<div class="input" style="margin-top: 40px">
+							<input style="width: 40%" type="submit" value="Submit" name="email">
 						</div>
 					</form>
 
@@ -204,7 +225,6 @@
 	<script src="js/lightbox.js" type="text/javascript"></script>
 	<script src="js/slider.js" type="text/javascript"></script>
 	<script src="js/map.js" type="text/javascript"></script>
-	<script src="js/jquery.nav.js" type="text/javascript"></script>
 	<script src="js/responsive-nav.min.js" type="text/javascript"></script>
 	<script src="js/scroll.js" type="text/javascript"></script>
 

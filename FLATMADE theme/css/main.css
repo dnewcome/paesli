@@ -1232,7 +1232,7 @@ img.mfp-img {
 /* --- begin basic code --- */
 body {
   font-family: "Roboto", sans-serif;
-  background: #252525;
+  background: #0E242D;
   color: white;
 }
 
@@ -2752,4 +2752,13 @@ body {
     position: relative;
     top: -120px;
   }
+}
+
+.checklabel {
+	line-height: 25px;
+	margin-left: 5px;
+}
+
+p {
+	font-size: 18px;
 }
