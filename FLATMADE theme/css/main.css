@@ -666,7 +666,7 @@ button::-moz-focus-inner {
 .mfp-close:active {
   top: 1px;
 }
-
+                  
 .mfp-close-btn-in .mfp-close {
   color: #333333;
 }
@@ -1522,13 +1522,14 @@ textarea {
 .green .splash {
   background: #0E242D;
 }
-.green .splash a {
+/*.green .splash a {
   background: #407eb8;
   -webkit-transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -o-transition: 0.2s ease all;
   transition: 0.2s ease all;
 }
+*/
 .green .splash a:hover {
   background: #3971a5;
   -webkit-transition: 0.2s ease all;
@@ -1992,9 +1993,10 @@ header .nav-toggle {
 
 /* --- begin content styles --- */
 .splash {
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
 }
+<font color="color_name|hex_number|rgb_number"> 
 .splash .boxed, .splash .full {
   position: relative;
 }
@@ -2018,6 +2020,10 @@ header .nav-toggle {
 }
 .splash .boxed a, .splash .full a {
   padding: 20px 50px;
+  color: white;
+}
+.splash .boxed b, .splash .full b {
+  padding: 148px 50px;
   color: white;
 }
 .splash .backstretch {
@@ -2706,7 +2712,7 @@ footer .tile a {
   /*margin-top: 113px;*/
 }
 .splash {
-  padding-top: 160px;
+  padding-top: 60px;
 
 }
 #home {
