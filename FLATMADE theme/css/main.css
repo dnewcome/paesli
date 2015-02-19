@@ -2111,10 +2111,10 @@ header .nav-toggle {
   font-size: 64px;
 }
 .service > div h1, .service > div h2, .service > div h3, .service > div h4 {
-  text-align: center;
+  text-align: left;
 }
 .service > div p {
-  text-align: center;
+  text-align: left;
 }
 
 .team > div .team-picture {
@@ -2773,4 +2773,10 @@ p {
 a.underlined-links {
  text-decoration: underline;  
 }
+
+form .green {
+  background-color: #215157;
+}
+
+
 
